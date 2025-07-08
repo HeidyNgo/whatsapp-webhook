@@ -1,14 +1,12 @@
 {
-  "name": "whatsapp-webhook-service",
+  "name": "whatsapp-webhook-hello-world",
   "version": "1.0.0",
-  "description": "Webhook handler for WhatsApp",
   "main": "index.js",
   "scripts": {
     "start": "functions-framework --target=handleWebhook"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.3.0",
-    "axios": "^1.7.2"
+    "@google-cloud/functions-framework": "^3.3.0"
   },
   "engines": {
     "node": "20"
